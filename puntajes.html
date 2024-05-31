@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Escuela Metropolitana</title>
+    <link rel="stylesheet" href="puntajes.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="puntajes.js"></script>
+</head>
+
+<body id="fondo">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img src="Escudo sin fondo.png" height="60">
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="usuario_menu.html" style="color: #3a557c;">Regresar</a></li>
+                <li></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="titulo text-center">
+        <h1 class="titulos" style="color: #3a557c; font-size: 70px;">Puntajes</h1>
+    </div>
+
+    <div class="container" >
+        <h2 style="color: #3a557c;">Promedio de Tiempo</h2>
+        <canvas id="promedioChart" width="400" height="200"></canvas>
+
+        <h2 style="color: #3a557c;">Tiempo por Nivel</h2>
+        <h3 style="color: #3a557c;">(Al pasar el cursor, aparece el número de lista del alumno y su tiempo)</h3>
+        <canvas id="puntajesNivelChart" width="400" height="200"></canvas>
+    </div>
+
+</body>
+
+</html>

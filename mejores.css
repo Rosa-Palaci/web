@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;800i;900&display=swap');
+
+.titulo {
+  background-size: cover;
+  background-position-y: 50%;
+  font-family: 'EB Garamond';
+  text-decoration-line: overline underline;
+  text-decoration-color: #8fc027;  
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#fondo {
+  position: relative;
+}
+
+.container {
+  position: relative;
+}
+
+/* Primera tabla */
+#Global {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Global th, #Global td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #000;
+}
+
+#Global th {
+    background-color: #6a6a6a;
+    color: #fff;
+}
+
+#Global tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Global tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Segunda tabla */
+#Mujeres {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Mujeres th, #mujeres td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #000;
+}
+
+#Mujeres th {
+    background-color: #8fc027;
+    color: #fff;
+}
+
+#Mujeres tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Mujeres tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Tercera tabla */
+#Hombres {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Hombres th, #hombres td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #000;
+}
+
+#Hombres th {
+    background-color: #3a557c;
+    color: #fff;
+}
+
+#Hombres tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Hombres tr:hover {
+    background-color: #e0e0e0;
+}
